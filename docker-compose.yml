@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  palmautic_landing:
+    build: .
+    restart: unless-stopped
+    image: palmautic_landing
+    container_name: palmautic_landing_co
+    ports:
+      - "8012:3003"
