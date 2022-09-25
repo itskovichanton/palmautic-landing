@@ -8,4 +8,4 @@ services:
     ports:
       - "8012:3003"
     volumes:
-      - /var/www/palmautic.nikolaydemidovez.by:/app/palm-landing/workdir/landingfiles:rw
+      - /var/www/palmautic.ru:/app/palm-landing/workdir/landingfiles:rw
