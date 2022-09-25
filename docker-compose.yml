@@ -7,3 +7,5 @@ services:
     container_name: palmautic_landing_co
     ports:
       - "8012:3003"
+    volumes:
+      - /var/www/palmautic.nikolaydemidovez.by:/app/palm-landing/workdir/landingfiles:rw
